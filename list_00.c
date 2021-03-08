@@ -1,4 +1,4 @@
-#include"list_00.h"
+#include"list_00.c"
 
 char a[20] = "perfect world";
 
@@ -60,7 +60,7 @@ void main(){
 		printf("%c", temp);
 		n = 0;
 	}else{
-		printf("get ele test sucess!\n");
+		printf("get ele error!\n");
 	}
 	
 	n = 0;
@@ -69,7 +69,6 @@ void main(){
 	ListDelete(lp, 10);
 	ListDelete(lp, 6);
 	ListDelete(lp, 8);
-	ListDelete(lp, 5);
 	ListDelete(lp, 13);
 	ListDelete(lp, 6);
 	ListDelete(lp, 5);
@@ -93,7 +92,7 @@ void main(){
 }
 
 void showList(List* lp){
-	TraverseList(lp, putEle);
+	TraverseList(lp);
 	printf("\n");
 }
 
