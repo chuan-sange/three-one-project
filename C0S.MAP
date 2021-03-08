@@ -1,0 +1,16 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 013EEH 013EFH _TEXT              CODE
+ 013F0H 01661H 00272H _DATA              DATA
+ 01662H 01665H 00004H _EMUSEG            DATA
+ 01666H 01667H 00002H _CRTSEG            DATA
+ 01668H 01669H 00002H _CVTSEG            DATA
+ 0166AH 0166FH 00006H _SCNSEG            DATA
+ 01670H 016B7H 00048H _BSS               BSS
+ 016B8H 016B8H 00000H _BSSEND            STACK
+ 016C0H 0173FH 00080H _STACK             STACK
+
+Undefined symbol '_CMAIN' in module MAIN.C
+Program entry point at 0000:0000
+
